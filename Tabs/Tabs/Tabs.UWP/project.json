@@ -1,6 +1,8 @@
 ﻿{
   "dependencies": {
     "Microsoft.Bcl.Build": "1.0.21",
+    "Microsoft.Cognitive.CustomVision.Prediction": "1.0.0",
+    "Microsoft.Cognitive.CustomVision.Training": "1.0.0",
     "Microsoft.Net.Http": "2.2.29",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
     "Newtonsoft.Json": "10.0.3",

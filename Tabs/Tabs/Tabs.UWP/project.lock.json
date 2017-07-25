@@ -20,6 +20,36 @@
           "build/Microsoft.Bcl.Build.targets": {}
         }
       },
+      "Microsoft.Cognitive.CustomVision.Prediction/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        }
+      },
+      "Microsoft.Cognitive.CustomVision.Training/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -316,6 +346,35 @@
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
         "type": "package"
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Newtonsoft.Json": "[9.0.1, 10.0.0)",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.Diagnostics.Tracing": "4.1.0",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Net.Http": "4.1.0",
+          "System.Net.Primitives": "4.0.11",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.ReaderWriter": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        }
       },
       "Microsoft.VisualBasic/10.0.1": {
         "type": "package",
@@ -1135,7 +1194,7 @@
           "lib/netcore50/System.Linq.Queryable.dll": {}
         }
       },
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -2535,6 +2594,36 @@
           "build/Microsoft.Bcl.Build.targets": {}
         }
       },
+      "Microsoft.Cognitive.CustomVision.Prediction/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        }
+      },
+      "Microsoft.Cognitive.CustomVision.Training/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2778,6 +2867,35 @@
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
         "type": "package"
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Newtonsoft.Json": "[9.0.1, 10.0.0)",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.Diagnostics.Tracing": "4.1.0",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Net.Http": "4.1.0",
+          "System.Net.Primitives": "4.0.11",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.ReaderWriter": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        }
       },
       "Microsoft.VisualBasic/10.0.1": {
         "type": "package",
@@ -3826,7 +3944,7 @@
           "lib/netcore50/System.Linq.Queryable.dll": {}
         }
       },
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -5080,6 +5198,36 @@
           "build/Microsoft.Bcl.Build.targets": {}
         }
       },
+      "Microsoft.Cognitive.CustomVision.Prediction/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        }
+      },
+      "Microsoft.Cognitive.CustomVision.Training/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -5324,6 +5472,35 @@
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
         "type": "package"
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Newtonsoft.Json": "[9.0.1, 10.0.0)",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.Diagnostics.Tracing": "4.1.0",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Net.Http": "4.1.0",
+          "System.Net.Primitives": "4.0.11",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.ReaderWriter": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        }
       },
       "Microsoft.VisualBasic/10.0.1": {
         "type": "package",
@@ -6410,7 +6587,7 @@
           "lib/netcore50/System.Linq.Queryable.dll": {}
         }
       },
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -7664,6 +7841,36 @@
           "build/Microsoft.Bcl.Build.targets": {}
         }
       },
+      "Microsoft.Cognitive.CustomVision.Prediction/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        }
+      },
+      "Microsoft.Cognitive.CustomVision.Training/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7910,6 +8117,35 @@
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
         "type": "package"
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Newtonsoft.Json": "[9.0.1, 10.0.0)",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.Diagnostics.Tracing": "4.1.0",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Net.Http": "4.1.0",
+          "System.Net.Primitives": "4.0.11",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.ReaderWriter": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        }
       },
       "Microsoft.VisualBasic/10.0.1": {
         "type": "package",
@@ -8964,7 +9200,7 @@
           "lib/netcore50/System.Linq.Queryable.dll": {}
         }
       },
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -10218,6 +10454,36 @@
           "build/Microsoft.Bcl.Build.targets": {}
         }
       },
+      "Microsoft.Cognitive.CustomVision.Prediction/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        }
+      },
+      "Microsoft.Cognitive.CustomVision.Training/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -10465,6 +10731,35 @@
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
         "type": "package"
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Newtonsoft.Json": "[9.0.1, 10.0.0)",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.Diagnostics.Tracing": "4.1.0",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Net.Http": "4.1.0",
+          "System.Net.Primitives": "4.0.11",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.ReaderWriter": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        }
       },
       "Microsoft.VisualBasic/10.0.1": {
         "type": "package",
@@ -11557,7 +11852,7 @@
           "lib/netcore50/System.Linq.Queryable.dll": {}
         }
       },
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -12811,6 +13106,36 @@
           "build/Microsoft.Bcl.Build.targets": {}
         }
       },
+      "Microsoft.Cognitive.CustomVision.Prediction/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        }
+      },
+      "Microsoft.Cognitive.CustomVision.Training/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -13057,6 +13382,35 @@
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
         "type": "package"
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Newtonsoft.Json": "[9.0.1, 10.0.0)",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.Diagnostics.Tracing": "4.1.0",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Net.Http": "4.1.0",
+          "System.Net.Primitives": "4.0.11",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.ReaderWriter": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        }
       },
       "Microsoft.VisualBasic/10.0.1": {
         "type": "package",
@@ -14111,7 +14465,7 @@
           "lib/netcore50/System.Linq.Queryable.dll": {}
         }
       },
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -15365,6 +15719,36 @@
           "build/Microsoft.Bcl.Build.targets": {}
         }
       },
+      "Microsoft.Cognitive.CustomVision.Prediction/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll": {}
+        }
+      },
+      "Microsoft.Cognitive.CustomVision.Training/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Net.Http": "4.3.1"
+        },
+        "compile": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        },
+        "runtime": {
+          "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -15612,6 +15996,35 @@
       },
       "Microsoft.NETCore.Windows.ApiSets/1.0.1": {
         "type": "package"
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1",
+          "Newtonsoft.Json": "[9.0.1, 10.0.0)",
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.Diagnostics.Tracing": "4.1.0",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Net.Http": "4.1.0",
+          "System.Net.Primitives": "4.0.11",
+          "System.ObjectModel": "4.0.12",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.ReaderWriter": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll": {}
+        }
       },
       "Microsoft.VisualBasic/10.0.1": {
         "type": "package",
@@ -16704,7 +17117,7 @@
           "lib/netcore50/System.Linq.Queryable.dll": {}
         }
       },
-      "System.Net.Http/4.3.0": {
+      "System.Net.Http/4.3.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -18041,6 +18454,28 @@
         "build/Microsoft.Bcl.Build.targets",
         "microsoft.bcl.build.1.0.21.nupkg.sha512",
         "microsoft.bcl.build.nuspec"
+      ]
+    },
+    "Microsoft.Cognitive.CustomVision.Prediction/1.0.0": {
+      "sha512": "bl3XtaJZCKlrEYNBIG3DpETZsYkOJ/z33HRoROxeI70I9WnPDc5xhgr4qC21I7/+EwTvEPoXAQacpzXSs1CuNw==",
+      "type": "package",
+      "path": "microsoft.cognitive.customvision.prediction/1.0.0",
+      "files": [
+        "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.dll",
+        "lib/dotnet/Microsoft.Cognitive.CustomVision.Prediction.pdb",
+        "microsoft.cognitive.customvision.prediction.1.0.0.nupkg.sha512",
+        "microsoft.cognitive.customvision.prediction.nuspec"
+      ]
+    },
+    "Microsoft.Cognitive.CustomVision.Training/1.0.0": {
+      "sha512": "o4Z6o8zv8X+CPVHsTrpoaFJuac3TW+ni8AvFwGH3EpDtwrML21CDgENiaA81CyTxRH+G8yA5oUGmd2E9Abinfw==",
+      "type": "package",
+      "path": "microsoft.cognitive.customvision.training/1.0.0",
+      "files": [
+        "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.dll",
+        "lib/dotnet/Microsoft.Cognitive.CustomVision.Training.pdb",
+        "microsoft.cognitive.customvision.training.1.0.0.nupkg.sha512",
+        "microsoft.cognitive.customvision.training.nuspec"
       ]
     },
     "Microsoft.CSharp/4.3.0": {
@@ -20425,6 +20860,18 @@
         "microsoft.netcore.windows.apisets.1.0.1.nupkg.sha512",
         "microsoft.netcore.windows.apisets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.2": {
+      "sha512": "qrPBemfdOfD7/LcSa7Hqi01KqLwCZbJ+/GSLN9BnL058/gMU9lvU+Ww19oZbjXh9jr2WzNXPhMJ/YkX9bwQCfw==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime/2.3.2",
+      "files": [
+        "lib/net45/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard1.5/Microsoft.Rest.ClientRuntime.dll",
+        "microsoft.rest.clientruntime.2.3.2.nupkg.sha512",
+        "microsoft.rest.clientruntime.nuspec"
       ]
     },
     "Microsoft.VisualBasic/10.0.1": {
@@ -23432,10 +23879,10 @@
         "system.linq.queryable.nuspec"
       ]
     },
-    "System.Net.Http/4.3.0": {
-      "sha512": "sYg+FtILtRQuYWSIAuNOELwVuVsxVyJGWQyOnlAzhV4xvhyFnON1bAzYYC+jjRW8JREM45R0R5Dgi8MTC5sEwA==",
+    "System.Net.Http/4.3.1": {
+      "sha512": "UrTyRczM3ZvNk6oetBuwlu67MFKKRva+r7bw4JDVZ6Y2IukyZ24td5ppsieu/4yZlogVAIuZul9GIQ3hoiz0yA==",
       "type": "package",
-      "path": "system.net.http/4.3.0",
+      "path": "system.net.http/4.3.1",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -23508,7 +23955,7 @@
         "runtimes/win/lib/net46/System.Net.Http.dll",
         "runtimes/win/lib/netcore50/System.Net.Http.dll",
         "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
-        "system.net.http.4.3.0.nupkg.sha512",
+        "system.net.http.4.3.1.nupkg.sha512",
         "system.net.http.nuspec"
       ]
     },
@@ -27054,6 +27501,8 @@
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.Bcl.Build >= 1.0.21",
+      "Microsoft.Cognitive.CustomVision.Prediction >= 1.0.0",
+      "Microsoft.Cognitive.CustomVision.Training >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.3.3",
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 10.0.3",
@@ -27084,13 +27533,15 @@
     },
     "dependencies": {
       "Microsoft.Bcl.Build": "1.0.21",
+      "Microsoft.Cognitive.CustomVision.Prediction": "1.0.0",
       "Microsoft.Net.Http": "2.2.29",
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
       "Newtonsoft.Json": "10.0.3",
+      "Xam.Plugin.Media": "2.6.2",
       "Xamarin.Forms": "2.3.4.247",
-      "Xam.Plugin.Media": {
+      "Microsoft.Cognitive.CustomVision.Training": {
         "target": "Package",
-        "version": "[2.6.2, )"
+        "version": "[1.0.0, )"
       }
     },
     "frameworks": {
