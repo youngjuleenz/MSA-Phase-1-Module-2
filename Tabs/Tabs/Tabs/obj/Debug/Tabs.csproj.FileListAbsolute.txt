@@ -1,0 +1,64 @@
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Tabs.dll.config
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Tabs.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Tabs.pdb
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.Abstractions.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Newtonsoft.Json.xml
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.pdb
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.xml
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.Abstractions.pdb
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.Abstractions.xml
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.xml
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.csproj.App.config
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.MainPage.xaml.g.cs
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.App.xaml.g.cs
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.AzureTables.xaml.g.cs
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.CustomVision.xaml.g.cs
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.dll
+C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.pdb
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Tabs.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Tabs.dll.config
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Tabs.pdb
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Newtonsoft.Json.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.Abstractions.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.Extensions.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.Primitives.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Core.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Newtonsoft.Json.xml
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.pdb
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.xml
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.Abstractions.pdb
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.Abstractions.xml
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.xml
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.Extensions.xml
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.Primitives.xml
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Core.xml
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.csproj.App.config
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.MainPage.xaml.g.cs
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.App.xaml.g.cs
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.AzureTables.xaml.g.cs
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.CustomVision.xaml.g.cs
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.pdb
