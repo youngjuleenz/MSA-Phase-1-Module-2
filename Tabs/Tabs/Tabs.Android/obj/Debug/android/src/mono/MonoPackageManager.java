@@ -100,6 +100,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Tabs.Android.dll" comes first in this list. */
 		"Tabs.Android.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.WindowsAzure.Mobile.dll",
+		"Microsoft.WindowsAzure.Mobile.Ext.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Media.Abstractions.dll",

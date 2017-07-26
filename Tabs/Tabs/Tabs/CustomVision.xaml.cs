@@ -83,7 +83,7 @@ namespace Tabs
 
                     double max = responseModel.Predictions.Max(m => m.Probability);
 
-                    TagLabel.Text = (max >= 0.5) ? "Hotdog" : "Not hotdog";
+                    TagLabel.Text = (max >= 0.5) ? "Satisfied" : "Unsatisfied";
 
                 }
 

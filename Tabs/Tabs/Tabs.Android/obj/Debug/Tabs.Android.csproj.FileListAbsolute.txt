@@ -40,6 +40,8 @@ C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Tabs.Android.pd
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Tabs.Android.apk
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Tabs.Android-Signed.apk
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\FormsViewGroup.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Newtonsoft.Json.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Plugin.CurrentActivity.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Plugin.Media.Abstractions.dll
@@ -73,6 +75,8 @@ C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Tabs.pdb
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Tabs.dll.config
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\FormsViewGroup.pdb
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Newtonsoft.Json.xml
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Plugin.CurrentActivity.xml
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\bin\Debug\Plugin.Media.pdb

@@ -2,6 +2,7 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\__library_projects__\Microsoft.WindowsAzure.Mobile.Ext\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\__library_projects__\Plugin.CurrentActivity\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\__library_projects__\Plugin.Media\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\__library_projects__\Plugin.Permissions\library_project_imports\res</ResolvedResourceDirectory>
@@ -15,6 +16,7 @@
     <ResolvedResourceDirectory>C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Microsoft.WindowsAzure.Mobile.Ext\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.CurrentActivity\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.Media\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.Permissions\library_project_imports\assets</ResolvedAssetDirectory>
@@ -23,6 +25,7 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\__library_projects__\Microsoft.WindowsAzure.Mobile.Ext.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\__library_projects__\Plugin.CurrentActivity.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\__library_projects__\Plugin.Media.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\__library_projects__\Plugin.Permissions.stamp</ResolvedResourceDirectoryStamp>
