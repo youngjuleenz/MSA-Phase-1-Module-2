@@ -33,10 +33,16 @@ C:\Users\young\OneDrive\Documents\Visual Studio 2017\Projects\MSA-Phase-1-Module
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Tabs.dll.config
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Tabs.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Tabs.pdb
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Microsoft.ProjectOxford.Common.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Microsoft.ProjectOxford.Emotion.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Newtonsoft.Json.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.Abstractions.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\SQLitePCLRaw.core.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.Extensions.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\System.Net.Http.Primitives.dll
@@ -44,6 +50,7 @@ C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Core.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.xml
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Newtonsoft.Json.xml
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.pdb
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Plugin.Media.xml
@@ -58,6 +65,7 @@ C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Platform.
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.csproj.App.config
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.csprojResolveAssemblyReference.cache
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.MainPage.xaml.g.cs
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.App.xaml.g.cs
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs\obj\Debug\Tabs.AzureTables.xaml.g.cs

@@ -10,11 +10,18 @@ using Plugin.Media;
 using Plugin.Media.Abstractions;
 using Tabs.Model;
 using Xamarin.Forms;
+using Microsoft.ProjectOxford.Emotion;
+using Microsoft.ProjectOxford.Emotion.Contract;
 
 namespace Tabs
 {
     public partial class CustomVision : ContentPage
     {
+        const string APIKEY = "375b1d9f138743ee92530b994c47592f";
+        EmotionServiceClient emotionServiceClient = new EmotionServiceClient(APIKEY);
+        Emotion[] emotionAnalysis;
+        MediaFile file;
+
         public CustomVision()
         {
             InitializeComponent();
@@ -38,58 +45,41 @@ namespace Tabs
             });
 
             if (file == null)
+            {
                 return;
+            }
 
             image.Source = ImageSource.FromStream(() =>
             {
                 return file.GetStream();
             });
 
-
-            await MakePredictionRequest(file);
+            analyseEmotion(file);
         }
 
-        static byte[] GetImageAsByteArray(MediaFile file)
+        private async void analyseEmotion(MediaFile file)
         {
-            var stream = file.GetStream();
-            BinaryReader binaryReader = new BinaryReader(stream);
-            return binaryReader.ReadBytes((int)stream.Length);
-        }
-
-        async Task MakePredictionRequest(MediaFile file)
-        {
-            var client = new HttpClient();
-
-            client.DefaultRequestHeaders.Add("Prediction-Key", "a51ac8a57d4e4345ab0a48947a4a90ac");
-
-            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/4da1555c-14ca-4aaf-af01-d6e1e97e5fa6/image?iterationId=7bc76035-3825-4643-917e-98f9d9f79b71";
-
-            HttpResponseMessage response;
-
-            byte[] byteData = GetImageAsByteArray(file);
-
-            using (var content = new ByteArrayContent(byteData))
+            emotionAnalysis = await emotionServiceClient.RecognizeAsync(file.GetStream());
+            if (emotionAnalysis != null)
             {
-
-                content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
-                response = await client.PostAsync(url, content);
-
-
-                if (response.IsSuccessStatusCode)
-                {
-                    var responseString = await response.Content.ReadAsStringAsync();
-
-                    EvaluationModel responseModel = JsonConvert.DeserializeObject<EvaluationModel>(responseString);
-
-                    double max = responseModel.Predictions.Max(m => m.Probability);
-
-                    TagLabel.Text = (max >= 0.5) ? "Satisfied" : "Unsatisfied";
-
-                }
-
-                //Get rid of file once we have finished using it
-                file.Dispose();
+                AnalysisResult.Text = "You are feeling... " + emotionAnalysis.FirstOrDefault().Scores.ToRankedList().FirstOrDefault().Key + " !";
+                //"Your emotions are: \n" +
+                //"Neutral: " + emotionAnalysis[0].Scores.Neutral +
+                //"\t \t Surprise: " + emotionAnalysis[0].Scores.Surprise + "\n" +
+                //"Fear: " + emotionAnalysis[0].Scores.Fear + "\n" +
+                //"Anger: " + emotionAnalysis[0].Scores.Anger + "\n" +
+                //"Disgust: " + emotionAnalysis[0].Scores.Disgust + "\n" +
+                //"Happiness: " + emotionAnalysis[0].Scores.Disgust + "\n" +
+                //"Sadness: " + emotionAnalysis[0].Scores.Sadness + "\n" +
+                //"Contempt: " + emotionAnalysis[0].Scores.Contempt + "\n";
+                
             }
+            else
+            {
+                return;
+            }
+
         }
+                
     }
 }
