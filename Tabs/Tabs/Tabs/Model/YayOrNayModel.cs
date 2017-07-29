@@ -9,20 +9,19 @@ namespace Tabs
 {
     public class YayOrNayModel
     {
-        [JsonProperty(PropertyName = "Id")]
+        [JsonProperty(PropertyName = "ID")]
         public string ID { get; set; }
 
-        [JsonProperty(PropertyName = "CreatedAt")]
-        public DateTime CreatedAt { get; set; }
+        [JsonProperty(PropertyName = "Emotion")]
+        public string Emotion { get; set; }
 
-        [JsonProperty(PropertyName = "UpdatedAt")]
-        public DateTime UpdatedAt { get; set; }
+        [JsonProperty(PropertyName = "EmotionValue")]   
+        public double EmotionValue { get; set; }
 
-        [JsonProperty(PropertyName = "Version")]
-        public string Version { get; set; }
+        [JsonProperty(PropertyName = "NotEmotion")]
+        public string NotEmotion { get; set; }
 
-        [JsonProperty(PropertyName = "Deleted")]
-        public bool Deleted { get; set; }
-
+        [JsonProperty(PropertyName = "NotEmotionValue")]
+        public double NotEmotionValue { get; set; }
     }
 }

@@ -43,6 +43,11 @@ namespace Tabs
         {
             return await this.yayornayTable.ToListAsync();
         }
-        
+
+        public async Task PostEmotionInformation(YayOrNayModel yayornayModel)
+        {
+            await this.yayornayTable.InsertAsync(yayornayModel);
+        }
+
     }
 }

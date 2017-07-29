@@ -5,7 +5,7 @@
         <StackLayout Orientation="Horizontal">
             <Label x:Name="AnalysisResult">
             </Label>
-            <Label x:Name="PredictionLabel">
+            <Label x:Name="AnalysisResult2">
             </Label>
         </StackLayout>
         <Image x:Name="image" Aspect="AspectFit"/>

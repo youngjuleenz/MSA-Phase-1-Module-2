@@ -11,6 +11,8 @@ C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\android\assets\
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\android\assets\Plugin.Media.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\android\assets\Plugin.Permissions.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\android\assets\SQLitePCL.dll
+C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\android\assets\SQLitePCL.Ext.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\android\assets\SQLitePCLRaw.batteries_green.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\android\assets\SQLitePCLRaw.batteries_v2.dll
 C:\Sandbox\MSA-Phase-1-Module-2\Tabs\Tabs\Tabs.Android\obj\Debug\android\assets\SQLitePCLRaw.core.dll

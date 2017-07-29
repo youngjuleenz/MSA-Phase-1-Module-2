@@ -62,7 +62,10 @@ namespace Tabs
             emotionAnalysis = await emotionServiceClient.RecognizeAsync(file.GetStream());
             if (emotionAnalysis != null)
             {
-                AnalysisResult.Text = "You are feeling... " + emotionAnalysis.FirstOrDefault().Scores.ToRankedList().FirstOrDefault().Key + " !";
+                var mainEmotion = emotionAnalysis.FirstOrDefault().Scores.ToRankedList().FirstOrDefault();
+                var notEmotion = emotionAnalysis.FirstOrDefault().Scores.ToRankedList().LastOrDefault();
+                AnalysisResult.Text = "You are feeling... " + mainEmotion.Key + " !";
+                AnalysisResult2.Text = "You are unlikely feeling..." + notEmotion.Key + " !";
                 //"Your emotions are: \n" +
                 //"Neutral: " + emotionAnalysis[0].Scores.Neutral +
                 //"\t \t Surprise: " + emotionAnalysis[0].Scores.Surprise + "\n" +
@@ -72,7 +75,16 @@ namespace Tabs
                 //"Happiness: " + emotionAnalysis[0].Scores.Disgust + "\n" +
                 //"Sadness: " + emotionAnalysis[0].Scores.Sadness + "\n" +
                 //"Contempt: " + emotionAnalysis[0].Scores.Contempt + "\n";
-                
+
+                var yayOrNayModelObject = new YayOrNayModel()
+                {
+                    Emotion = mainEmotion.Key,
+                    EmotionValue = mainEmotion.Value,
+                    NotEmotion = notEmotion.Key,
+                    NotEmotionValue = notEmotion.Value
+                };
+
+                await AzureManager.AzureManagerInstance.PostEmotionInformation(yayOrNayModelObject);
             }
             else
             {

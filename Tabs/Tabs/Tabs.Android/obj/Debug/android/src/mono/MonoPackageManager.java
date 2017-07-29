@@ -111,6 +111,8 @@ class MonoPackageManager_Resources {
 		"Plugin.Media.dll",
 		"Plugin.Permissions.Abstractions.dll",
 		"Plugin.Permissions.dll",
+		"SQLitePCL.dll",
+		"SQLitePCL.Ext.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",
